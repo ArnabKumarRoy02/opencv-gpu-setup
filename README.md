@@ -13,7 +13,8 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
 But running the same code will be resulting in a error.
 
-To solve this issue, we need to install cv2 ourselves.
+## Solution
+To solve this issue, we need to manually install opencv-python.
 
 Run the code in order:
 
@@ -39,6 +40,8 @@ Run the code in order:
 !make -j8 install
 ```
 
+## Check
+
 After completion you can check the version of OpenCV.
 
 ```shell
@@ -55,6 +58,8 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
 But the first step takes a lot of time, and you need to do it every time you start
 the notebook. This is time-consuming and not ideal.
+
+## Finally
 
 One thing you can do here is to save the result of the first step to your Google
 Drive (you have to mount it).
